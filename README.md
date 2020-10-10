@@ -2,12 +2,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Version
 
-http://billydyball.com/projects/SortingVisualizer/
+http://billydyball.com/projects/SortingVisualizer/<br />
 Note: May be down if project is over a year old
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Downloads all dependencies<br />
+<b>essential</b> to edit, test and develop this program further.
 
 ### `npm start`
 
