@@ -40,15 +40,15 @@ function doMerge(
         // time to revert their color.
         animations.push([i, j]);
         if (auxiliaryArray[i] <= auxiliaryArray[j]) {
-        // We overwrite the value at index k in the original array with the
-        // value at index i in the auxiliary array.
-        animations.push([k, auxiliaryArray[i]]);
-        mainArray[k++] = auxiliaryArray[i++];
+            // We overwrite the value at index k in the original array with the
+            // value at index i in the auxiliary array.
+            animations.push([k, auxiliaryArray[i]]);
+            mainArray[k++] = auxiliaryArray[i++];
         } else {
-        // We overwrite the value at index k in the original array with the
-        // value at index j in the auxiliary array.
-        animations.push([k, auxiliaryArray[j]]);
-        mainArray[k++] = auxiliaryArray[j++];
+            // We overwrite the value at index k in the original array with the
+            // value at index j in the auxiliary array.
+            animations.push([k, auxiliaryArray[j]]);
+            mainArray[k++] = auxiliaryArray[j++];
         }
     }
     while (i <= middleIdx) {
